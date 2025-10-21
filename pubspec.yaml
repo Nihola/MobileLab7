@@ -1,4 +1,4 @@
-name: mobilelab7
+ name: mobilelab7
 description: A new Flutter project.
 publish_to: 'none'
 
@@ -10,11 +10,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  http: ^0.13.6  
+
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
+  build_runner: ^2.4.13
 
 flutter:
   uses-material-design: true
